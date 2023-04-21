@@ -37,7 +37,7 @@ collection = db[coll_name]
 
 # Read posts from CSV file
 if len(sys.argv) < 2:
-    print('Usage: python inser_lyrics.py <csv_file>')
+    print('Usage: python3 inser_lyrics.py <csv_file>')
     sys.exit(1)
 
 
